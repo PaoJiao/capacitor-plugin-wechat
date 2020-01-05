@@ -1,4 +1,5 @@
-package com.lxlx.capicitor.plugin.wechat;
+package com.lxlx.video1plus;
+
 
 import android.util.Log;
 

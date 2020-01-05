@@ -1,5 +1,5 @@
-package __PACKAGE_NAME__;
-//package com.lxlx.video1plus.wxapi;
+//package __PACKAGE_NAME__;
+package com.lxlx.video1plus.wxapi;
 
 
 //import org.cocos2dx.lua.AppActivity;
