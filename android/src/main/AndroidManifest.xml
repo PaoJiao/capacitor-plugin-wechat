@@ -1,6 +1,6 @@
 
   <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.lxlx.video1plus">
+      package="com.lxlx.video1plus.capacitorpluginwechat">
 
 
     <uses-permission android:name="android.permission.INTERNET" />
