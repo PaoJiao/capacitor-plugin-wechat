@@ -17,9 +17,9 @@
 		50E1A94820377CB70090CE1A /* Plugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E1A94720377CB70090CE1A /* Plugin.swift */; };
 		7EEBED5223C7255D0036707D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEBED5123C7255C0036707D /* SystemConfiguration.framework */; };
 		7EEBED6823C726600036707D /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEBED6423C726600036707D /* libWeChatSDK.a */; };
-		7EEBED6923C726600036707D /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EEBED6523C726600036707D /* WechatAuthSDK.h */; };
-		7EEBED6A23C726600036707D /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EEBED6623C726600036707D /* WXApi.h */; };
-		7EEBED6B23C726600036707D /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EEBED6723C726600036707D /* WXApiObject.h */; };
+		7EEBED6923C726600036707D /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EEBED6523C726600036707D /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EEBED6A23C726600036707D /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EEBED6623C726600036707D /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EEBED6B23C726600036707D /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EEBED6723C726600036707D /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EEBED6C23C726910036707D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEBED4E23C725320036707D /* libc++.tbd */; };
 		7EEBED6D23C726990036707D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEBED5023C7254A0036707D /* libz.tbd */; };
 		7EEBED6E23C726A00036707D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEBED4F23C725430036707D /* libsqlite3.tbd */; };
