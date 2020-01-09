@@ -9,7 +9,7 @@ end
 
 target 'Plugin' do
   capacitor_pods
-  pod 'WechatKit'
+  #pod 'WechatKit'
 end
 
 target 'PluginTests' do

@@ -15,6 +15,14 @@
 		50ADFFA42020D75100D50D53 /* Capacitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50ADFFA52020D75100D50D53 /* Capacitor.framework */; };
 		50ADFFA82020EE4F00D50D53 /* Plugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ADFFA72020EE4F00D50D53 /* Plugin.m */; };
 		50E1A94820377CB70090CE1A /* Plugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E1A94720377CB70090CE1A /* Plugin.swift */; };
+		7EEBED5223C7255D0036707D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEBED5123C7255C0036707D /* SystemConfiguration.framework */; };
+		7EEBED6823C726600036707D /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEBED6423C726600036707D /* libWeChatSDK.a */; };
+		7EEBED6923C726600036707D /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EEBED6523C726600036707D /* WechatAuthSDK.h */; };
+		7EEBED6A23C726600036707D /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EEBED6623C726600036707D /* WXApi.h */; };
+		7EEBED6B23C726600036707D /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EEBED6723C726600036707D /* WXApiObject.h */; };
+		7EEBED6C23C726910036707D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEBED4E23C725320036707D /* libc++.tbd */; };
+		7EEBED6D23C726990036707D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEBED5023C7254A0036707D /* libz.tbd */; };
+		7EEBED6E23C726A00036707D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEBED4F23C725430036707D /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +47,14 @@
 		50ADFFA72020EE4F00D50D53 /* Plugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Plugin.m; sourceTree = "<group>"; };
 		50E1A94720377CB70090CE1A /* Plugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plugin.swift; sourceTree = "<group>"; };
 		5E23F77F099397094342571A /* Pods-Plugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plugin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Plugin/Pods-Plugin.debug.xcconfig"; sourceTree = "<group>"; };
+		7EEBED4E23C725320036707D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libc++.tbd"; sourceTree = DEVELOPER_DIR; };
+		7EEBED4F23C725430036707D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libsqlite3.tbd; sourceTree = DEVELOPER_DIR; };
+		7EEBED5023C7254A0036707D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
+		7EEBED5123C7255C0036707D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		7EEBED6423C726600036707D /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		7EEBED6523C726600036707D /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		7EEBED6623C726600036707D /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		7EEBED6723C726600036707D /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		91781294A431A2A7CC6EB714 /* Pods-Plugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plugin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Plugin/Pods-Plugin.release.xcconfig"; sourceTree = "<group>"; };
 		96ED1B6440D6672E406C8D19 /* Pods-PluginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PluginTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PluginTests/Pods-PluginTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F65BB2953ECE002E1EF3E424 /* Pods-PluginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PluginTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PluginTests/Pods-PluginTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -50,8 +66,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EEBED6E23C726A00036707D /* libsqlite3.tbd in Frameworks */,
+				7EEBED6D23C726990036707D /* libz.tbd in Frameworks */,
+				7EEBED6C23C726910036707D /* libc++.tbd in Frameworks */,
 				50ADFFA42020D75100D50D53 /* Capacitor.framework in Frameworks */,
 				03FC29A292ACC40490383A1F /* Pods_Plugin.framework in Frameworks */,
+				7EEBED6823C726600036707D /* libWeChatSDK.a in Frameworks */,
+				7EEBED5223C7255D0036707D /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +91,7 @@
 		50ADFF7E201F53D600D50D53 = {
 			isa = PBXGroup;
 			children = (
+				7EEBED3E23C720680036707D /* WeChatSDK */,
 				50ADFF8A201F53D600D50D53 /* Plugin */,
 				50ADFF95201F53D600D50D53 /* PluginTests */,
 				50ADFF89201F53D600D50D53 /* Products */,
@@ -107,6 +129,18 @@
 			path = PluginTests;
 			sourceTree = "<group>";
 		};
+		7EEBED3E23C720680036707D /* WeChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				7EEBED6423C726600036707D /* libWeChatSDK.a */,
+				7EEBED6523C726600036707D /* WechatAuthSDK.h */,
+				7EEBED6623C726600036707D /* WXApi.h */,
+				7EEBED6723C726600036707D /* WXApiObject.h */,
+			);
+			name = WeChatSDK;
+			path = Plugin/WeChatSDK;
+			sourceTree = "<group>";
+		};
 		8C8E7744173064A9F6D438E3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +155,10 @@
 		A797B9EFA3DCEFEA1FBB66A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7EEBED5123C7255C0036707D /* SystemConfiguration.framework */,
+				7EEBED5023C7254A0036707D /* libz.tbd */,
+				7EEBED4F23C725430036707D /* libsqlite3.tbd */,
+				7EEBED4E23C725320036707D /* libc++.tbd */,
 				50ADFFA52020D75100D50D53 /* Capacitor.framework */,
 				3B2A61DA5A1F2DD4F959604D /* Pods_Plugin.framework */,
 				F6753A823D3815DB436415E3 /* Pods_PluginTests.framework */,
@@ -135,7 +173,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EEBED6A23C726600036707D /* WXApi.h in Headers */,
 				50ADFF99201F53D600D50D53 /* Plugin.h in Headers */,
+				7EEBED6923C726600036707D /* WechatAuthSDK.h in Headers */,
+				7EEBED6B23C726600036707D /* WXApiObject.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,13 +324,11 @@
 				"${PODS_ROOT}/Target Support Files/Pods-PluginTests/Pods-PluginTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Capacitor/Capacitor.framework",
 				"${BUILT_PRODUCTS_DIR}/CapacitorCordova/Cordova.framework",
-				"${BUILT_PRODUCTS_DIR}/WechatKit/WechatKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Capacitor.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cordova.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WechatKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -460,9 +499,20 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)\n$(FRAMEWORK_SEARCH_PATHS)\n$(FRAMEWORK_SEARCH_PATHS)";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Plugin/WeChatSDK1.8.6.1",
+					"$(PROJECT_DIR)/Plugin/WeChatSDK",
 				);
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Capacitor\"",
+					"-framework",
+					"\"Cordova\"",
+					"-framework",
+					"\"WebKit\"",
+					"-Objc",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lxlx.video1plus;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -494,9 +544,20 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Plugin/WeChatSDK1.8.6.1",
+					"$(PROJECT_DIR)/Plugin/WeChatSDK",
 				);
 				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Capacitor\"",
+					"-framework",
+					"\"Cordova\"",
+					"-framework",
+					"\"WebKit\"",
+					"-Objc",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lxlx.video1plus;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
