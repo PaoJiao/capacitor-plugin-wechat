@@ -5,7 +5,7 @@ node_modules/
 # iOS files
 Pods
 Build
-xcuserdata
+#xcuserdata
 
 # macOS files
 .DS_Store
