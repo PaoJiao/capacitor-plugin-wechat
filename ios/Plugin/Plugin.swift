@@ -31,7 +31,7 @@ public class wechat: CAPPlugin {
         //}
         //else{
         //    print("no")
-       // }
+        //}
         
         
         //WXApi.registerApp("wx7cc21f33633fa22f",universalLink:"https://agent.beijingmj.com/lexun-launchvideo1plus"); //改成你实际的AppID

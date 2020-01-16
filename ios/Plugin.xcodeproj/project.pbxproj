@@ -513,6 +513,7 @@
 					"-Objc",
 					"-all_load",
 				);
+				PLIST_FILE_OUTPUT_FORMAT = binary;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lxlx.video1plus;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -558,6 +559,7 @@
 					"-Objc",
 					"-all_load",
 				);
+				PLIST_FILE_OUTPUT_FORMAT = binary;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lxlx.video1plus;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
