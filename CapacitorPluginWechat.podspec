@@ -6,7 +6,7 @@
     s.license = 'MIT'
     s.homepage = 'https://github.com/chxy85/capacitor-plugin-wechat.git'
     s.author = 'vtychx'
-    s.source = { :git => 'https://github.com/chxy85/capacitor-plugin-wechat.git', :tag => s.version.to_s }
+    s.source = { :git => 'https://gitee.com/vtychx/capacitor-plugin-wechat.git', :tag => s.version.to_s }
     s.source_files = 'ios/Plugin/**/*.{swift,h,m,c,cc,mm,cpp}'
     s.ios.deployment_target  = '11.0'
 
@@ -18,4 +18,5 @@
     s.static_framework = true
     s.dependency 'Capacitor'
     #s.dependency 'WechatOpenSDK'
+    s.dependency 'WechatKit'
   end

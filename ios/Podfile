@@ -8,8 +8,10 @@ def capacitor_pods
 end
 
 target 'Plugin' do
+  use_frameworks!
   capacitor_pods
   #pod 'WechatOpenSDK'
+  pod 'WechatKit', :path => '/Users/lxlx-cx/BJMJ/test/WechatKit'
 end
 
 target 'PluginTests' do

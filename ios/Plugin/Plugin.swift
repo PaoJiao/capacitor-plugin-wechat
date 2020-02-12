@@ -1,7 +1,7 @@
 import Foundation
 import Capacitor
 //import openSDK
-//import WechatOpenSDK
+import WechatKit
 
 /**
  * Please read the Capacitor iOS Plugin Development Guide
@@ -20,7 +20,8 @@ public class wechat: CAPPlugin {
     }
 
     public override func load() {
-        WXApi.registerApp("wx7cc21f33633fa22f",universalLink:"https://agent.beijingmj.com/lexun-launchvideo1plus");
+        //WXApi.registerApp("wx7cc21f33633fa22f",universalLink:"https://agent.beijingmj.com/lexun-launchvideo1plus");
+        //WechatManager.shared.handleOpenURL(url)
         wechat.staticSelf = self
     }
 
@@ -28,10 +29,14 @@ public class wechat: CAPPlugin {
         
         if isInstalled(){
             print("yes")
+            /*  */
             let req = SendAuthReq()
             req.scope = "snsapi_userinfo"
             req.state = "akjdhflajksdhfl"
             WXApi.send(req)
+
+            //WechatManager.shared.sendAuth()
+
         }
         else{
            print("no")
@@ -39,6 +44,7 @@ public class wechat: CAPPlugin {
     }
 
     public func isInstalled() -> Bool {
+        //return WXApi.isWXAppInstalled()
         return WXApi.isWXAppInstalled()
     }
 
